@@ -56,7 +56,7 @@ function handleSubmit(event) {
     message: formData.get("message"),
   };
 
-  fetch("http://localhost:3000/contact", {
+  fetch("https://portfolio-backend-gez4.onrender.com/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
